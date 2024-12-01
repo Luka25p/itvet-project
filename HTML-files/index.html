@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- css links start -->
+     <link rel="stylesheet" href="/CSS-files/style.css">
+     <link rel="stylesheet" href="/CSS-files/reset.css">
+    <link rel="stylesheet" href="/CSS-files/cssVar.css">
+    <link rel="stylesheet" href="/CSS-files/nightMode.css">
+    <!-- css links end -->
+
+    <!-- awsome icon link start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- awsome icon link end -->
+
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- google font end -->
+</head>
+<body>
+    <div class="conteiner">
+        <div class="filter" id="filter"></div>
+        <header id="header" class="header">
+            <nav>
+                <h2>logo</h2>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">content</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+                <section class="headerCenter">
+                    <input type="text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div id="nightMode">
+                        <i class="fa-solid fa-sun"
+                        ></i>
+                        <i class="fa-solid fa-moon" id="moon"></i>
+                    </div>
+                </section>
+                <section>
+                    <button>Log In</button>
+                    <button class="signUp">sign up</button>
+                </section>
+            </nav>
+        </header>
+        <div class="sideBar" id="sideBar">
+            <section class="sideBarContent">
+                <h3>
+                    Updates
+                </h3>
+                <ul>
+                    <li><a href="">Drawing proces</a></li>
+                    <li><a href="">Working team</a></li>
+                    <li><a href="">Author</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Latest update</a></li>
+                </ul>
+                <h3>
+                    site rules
+                </h3>
+                <ul>
+                    <li><a href="">rules</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </section>
+            <footer>
+                <section class="socialMedia">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                    </ul>
+                </section>
+                <section>
+                    <p>
+                        &copy; site name
+                    </p>
+                </section>
+            </footer>
+        </div>
+        <main>
+            <div class="mainHeader">
+                <h2>manga name:</h2>
+            </div>
+            <div class="mainMain mainImg" id="main"></div>
+            <footer>
+                <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <a href="">
+                    Read Manga
+                </a>
+                <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </footer>
+        </main>
+    </div>
+    
+    <script src="/JAVASCRIPT-files/index.js"></script>
+</body>
+</html>
